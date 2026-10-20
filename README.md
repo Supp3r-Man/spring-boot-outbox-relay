@@ -287,7 +287,7 @@ mvn spring-boot:run               # http://localhost:8080
 ```
 
 CI: a GitHub Actions workflow is included (`.github/workflows/ci.yml`: `mvn -q -B verify` on Java 17 and 21);
-CI not yet confirmed.
+CI ran green on the first run on GitHub Actions (Java 17 and 21, ubuntu-latest, 2026-10-20).
 
 ## Layout
 
